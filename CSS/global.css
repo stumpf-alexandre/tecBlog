@@ -13,3 +13,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #e6e6e6;
 }
+
+a:link, a:visited {
+  color: #f7b600;;
+}

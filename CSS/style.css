@@ -13,22 +13,87 @@ h1 {
   font-size: 2.5em;
 }
 
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+
+}
+
 .white-text {
   color: #fff;
   background-color: #b3b3bc;
 }
 
-a:link, a:visited {
+#menu-area a:link, #menu-area a:visited {
   color: #fff;
   padding: 8px 12px;
 }
 
-a:hover {
+#menu-area a:hover {
   color: #f7b600;
   background: #fff;
 }
 
-a:active {
+#menu-area a:active {
   color: #fff;
   background: #f7b600;
+}
+
+.post a:hover, .side-post a:hover {
+  text-decoration: underline;
+}
+
+#main-area {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+#post-area {
+  width: 660px;
+  float: left;
+}
+
+#side-area {
+  width: 240px;
+  float: right;
+}
+
+.post-data {
+  display: block;
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.side-content {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.side-post {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+#footer-area {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background-color: #ccc;
+  color: #4e4e4e;
+  font-weight: bold;
 }
