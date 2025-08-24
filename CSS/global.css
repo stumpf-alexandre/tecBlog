@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-size: 100%;
     list-style-type: none;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
 }
